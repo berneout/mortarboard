@@ -11,7 +11,7 @@ $(BUILD)/Mortarboard-%.md: %.json $(TEMPLATE) | $(BUILD) $(MUSTACHE)
 	$(MUSTACHE) $*.json $(TEMPLATE) | fmt -w60 -u > $@
 
 %.json:
-	echo '{"$*": true, "Version": "$(VERSION)"}' > $@
+	echo '{"Variant": "$*", "$*": true, "Version": "$(VERSION)"}' > $@
 
 $(BUILD):
 	mkdir -p $@
