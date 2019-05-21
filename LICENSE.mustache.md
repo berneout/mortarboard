@@ -16,7 +16,7 @@ Announcement URL: [URL]
 
 The licensor hereby licenses the project on the terms of the target license, effective as soon as
 {{#Revenue}}
-the licensor reaches [revenue target] in revenue from its [line of business] line of business.
+the licensor reaches [revenue target] in revenue in a single annual accounting period from its [line of business] line of business.
 {{/Revenue}}
 {{#Contributors}}
 the project reaches [contributors target] outside contributors who have made substantial contributions of new, original work subject to copyright to the main line of development in the project's repository within the last calendar quarter, but are not affiliated with the licensor as employees, contractors, owners, lenders, or equity holders.
