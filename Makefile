@@ -6,7 +6,7 @@ VARIANTS=$(foreach variable,$(VARIABLES),$(addprefix Mortarboard-,$(addsuffix .m
 
 all: $(addprefix $(BUILD)/,$(VARIANTS))
 
-$(BUILD)/%.md: %.json $(TEMPLATE) | $(BUILD) $(MUSTACHE)
+$(BUILD)/Mortarboard-%.md: %.json $(TEMPLATE) | $(BUILD) $(MUSTACHE)
 	$(MUSTACHE) $*.json $(TEMPLATE) | fmt -w60 -u > $@
 
 %.json:
