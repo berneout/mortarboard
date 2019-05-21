@@ -1,7 +1,6 @@
 # Mortarboard License
 
-{{#Version}}Version {{{.}}}{{/Version}}
-{{^Version}}Development Draft{{/Version}}
+{{#Version}}Version {{{.}}}{{/Version}}{{^Version}}Development Draft{{/Version}}
 
 Licensor: [licensor's legal name]
 
