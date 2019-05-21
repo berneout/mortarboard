@@ -1,4 +1,5 @@
 # Mortarboard License
+
 {{#Version}}Version {{{.}}}{{/Version}}
 {{^Version}}Development Draft{{/Version}}
 
