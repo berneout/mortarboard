@@ -1,4 +1,3 @@
-SHELL=/bin/bash
 MUSTACHE=node_modules/.bin/mustache
 TEMPLATE=LICENSE.mustache.md
 BUILD=build
