@@ -24,9 +24,9 @@ the project reaches [contributors target] outside contributors who have made sub
 {{#Streak}}
 the project reaches [years] years in a row with substantial contributions of new, original work subject to copyright to the main line of development in the project's repository.
 {{/Streak}}
-{{#Stability}}
+{{#Stable}}
 the project reaches [years] years in a row without any substantial contribution of new, original work subject to copyright to the main line of development in the project's repository.
-{{/Stability}}
+{{/Stable}}
 
 ## Reliability
 
