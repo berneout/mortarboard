@@ -1,4 +1,4 @@
-# Mortarboard License
+# Mortarboard Licenses
 
 graduate to new public license terms
 
