@@ -8,6 +8,8 @@ Project: [project name]
 
 Repository: [repository URL]
 
+Current License: [current license]
+
 Target License: [target license]
 
 Announcement URL: [URL]
@@ -27,6 +29,10 @@ the project reaches [years] years in a row with substantial contributions of new
 {{#Stable}}
 the project reaches [years] years in a row without any substantial contribution of new, original work subject to copyright to the main line of development in the project's repository.
 {{/Stable}}
+
+## Scope
+
+This license covers versions of the project that the licensor makes available under the terms of the current license.
 
 ## Reliability
 
